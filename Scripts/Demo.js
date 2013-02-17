@@ -29,13 +29,13 @@
     });
 
     $("#convert").click(function () {
-        var result = $("#temp").text();
+        var input = $("#temp").val();
         $.ajax({
-            url: "/Demo/FormDemo",
+            url: "/Demo/TemperatureConvert",
             type: 'POST',
             dataType: "json",
-            data: { "msg": result },
-            success: function (response) { $("#result").show().text("Time: " + response.Date); }
+            data: { "tempInC": input },
+            success: function (response) { $("#tempResult").show().text( response.Result); }
         });
     });
     
