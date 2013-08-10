@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureCalculator", "JavaScriptDemo\TemperatureCalculator.csproj", "{E02B09E0-984C-4376-B109-9B2B62FD248D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{DDC37A17-F673-4E4E-8D96-30ED11B32823}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureCalculator", "TemperatureConvert\TemperatureCalculator.csproj", "{E02B09E0-984C-4376-B109-9B2B62FD248D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +11,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E02B09E0-984C-4376-B109-9B2B62FD248D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E02B09E0-984C-4376-B109-9B2B62FD248D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E02B09E0-984C-4376-B109-9B2B62FD248D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E02B09E0-984C-4376-B109-9B2B62FD248D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DDC37A17-F673-4E4E-8D96-30ED11B32823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DDC37A17-F673-4E4E-8D96-30ED11B32823}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDC37A17-F673-4E4E-8D96-30ED11B32823}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDC37A17-F673-4E4E-8D96-30ED11B32823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E02B09E0-984C-4376-B109-9B2B62FD248D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E02B09E0-984C-4376-B109-9B2B62FD248D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E02B09E0-984C-4376-B109-9B2B62FD248D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E02B09E0-984C-4376-B109-9B2B62FD248D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
